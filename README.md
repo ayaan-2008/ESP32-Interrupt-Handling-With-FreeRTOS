@@ -2,6 +2,8 @@
 
 ## Overview
 
+<img width="1917" height="943" alt="image" src="https://github.com/user-attachments/assets/494a5777-42ed-4d33-b4d3-800d3298da93" />
+
 This project demonstrates how multiple hardware interrupts can be handled efficiently on the ESP32 using FreeRTOS queues.
 
 Two push buttons generate interrupts of equal priority. The Interrupt Service Routines (ISRs) remain lightweight by simply sending events to a FreeRTOS queue. A dedicated interrupt-processing task receives and handles the events.
